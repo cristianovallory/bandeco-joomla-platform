@@ -9,6 +9,7 @@ border-collapse:collapse;
 }
 td{
 text-align:center;
+width:16%;
 }
 th{
 background-color:#E5E5E5;

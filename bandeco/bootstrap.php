@@ -12,4 +12,4 @@
 // Change the following path to suit where you have cloned or installed the Joomla Platform repository.
 // The default setting assumes you have the joomla platform and examples folder at the same level.
 
-require dirname(dirname(__FILE__)).'/joomla/libraries/import.php';
+require dirname(dirname(__FILE__)).'/bandeco/libraries/import.php';

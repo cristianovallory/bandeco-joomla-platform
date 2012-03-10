@@ -77,6 +77,33 @@ protected function doExecute(){
 		}
 	}
 	echo '</table>';
+	echo '<br />';
+	echo '<table>';
+	echo '<tr>';
+	echo '<th>'.$xml->$dias[0]->data.'</th>';
+	echo '<th>'.$xml->$dias[1]->data.'</th>';
+	echo '<th>'.$xml->$dias[2]->data.'</th>';
+	echo '<th>'.$xml->$dias[3]->data.'</th>';
+	echo '<th>'.$xml->$dias[4]->data.'</th>';
+	echo '<th>'.$xml->$dias[5]->data.'</th>';
+	echo '</tr>';	
+ 	for($i=0; $i<count($dias); $i++){
+		if($i==0){
+			echo '<tr><td>'.$xml->$dias[$i]->jantar->salada.'<br />';
+			echo $xml->$dias[$i]->jantar->principal.'<br />';
+			echo $xml->$dias[$i]->jantar->acompanhamento.'<br />';
+			echo $xml->$dias[$i]->jantar->sobremesa.'</td>';
+		}else if($i==count($dias)-1){
+			echo '<td>Vai passar fome!</td></tr>';
+		}else{
+			echo '<td>'.$xml->$dias[$i]->jantar->salada.'<br />';
+ 			echo $xml->$dias[$i]->jantar->principal.'<br />';
+			echo $xml->$dias[$i]->jantar->acompanhamento.'<br />';
+			echo $xml->$dias[$i]->jantar->sobremesa.'</td>';
+		}
+	}
+	echo '</table>';
+
 }
 public function getTemplate(){
 	return $this->get('theme');
