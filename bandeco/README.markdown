@@ -1,9 +1,7 @@
-Joomla Platform
+Bandeco em Joomla! Platform
 ===============
 
-The *Joomla Platform* is a platform for writing Web and command line applications in PHP.  It is free and open source software,
-distributed under the GNU General Public License version 2 or later.  The Joomla Content Management System (CMS) is built on
-top of the *Joomla Platform*.  For more information about the Joomla CMS visit: http://www.joomla.org/about-joomla.html
+Este é o meu HelloWorld em  *Joomla Platform*. Não foi trabalhado o HTML e CSS de forma "bunitinha". Somente para testar o framework. 
 
 You can find out more about Joomla development *(though not platform specific)* at: http://docs.joomla.org/Developers
 
@@ -24,7 +22,7 @@ Installation
 
 Get the source code from GIT:
 
-    git clone git://github.com/joomla/joomla-platform.git
+    git clone git://github.com/cristianovallory/bandeco-joomla-platform.git
 
 _Please ensure you add the following path to your local .gitignore file: tests/test_application/cache_
 
