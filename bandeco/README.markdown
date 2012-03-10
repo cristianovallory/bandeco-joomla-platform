@@ -3,6 +3,8 @@ Bandeco em Joomla! Platform
 
 Este é o meu HelloWorld em  *Joomla Platform*. Não foi trabalhado o HTML e CSS de forma "bunitinha". Somente para testar o framework. 
 
+Para ver rodando o site ; http://tevina.net/bandeco
+
 You can find out more about Joomla development *(though not platform specific)* at: http://docs.joomla.org/Developers
 
 You can discuss *Joomla Platform* development at: http://groups.google.com/group/joomla-dev-platform
