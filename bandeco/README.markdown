@@ -2,6 +2,7 @@ Bandeco em Joomla! Platform
 ===============
 
 Este é o meu HelloWorld em  *Joomla Platform*. Não foi trabalhado o HTML e CSS de forma "bunitinha". Somente para testar o framework. 
+O sisteminha pucha o XML do restaurante da USP de Sâo Carlos e mostra na tela.
 
 Para ver rodando o site ; http://tevina.net/bandeco
 
